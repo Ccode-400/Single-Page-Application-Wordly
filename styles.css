@@ -39,3 +39,7 @@ h2 {
     transform: scale(1.05);
   }
 
+#result {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
