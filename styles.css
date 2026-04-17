@@ -80,4 +80,14 @@ audio {
     width: 100%;
   }
 
-  
+footer {
+  margin-top: 50px;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ddd;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease;
+}
+
+
