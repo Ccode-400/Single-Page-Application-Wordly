@@ -8,3 +8,9 @@ form.addEventListener("submit", function (e) {
   e.preventDefault(); 
   const word = input.value.trim();
 
+  if (!word) {
+    errorDiv.textContent = "Please enter a word.";
+    return;
+  }
+
+  
