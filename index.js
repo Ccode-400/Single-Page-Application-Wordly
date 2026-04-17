@@ -16,3 +16,12 @@ form.addEventListener("submit", function (e) {
   fetchWord(word);
 });
 
+// Fetch function using async and await
+async function fetchWord(word) {
+  try {
+    errorDiv.textContent = "";
+    resultDiv.innerHTML = "Loading...";
+
+    const response = await fetch(https://api.dictionaryapi.dev/api/v2/entries/en/${word});
+
+    
