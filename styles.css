@@ -62,3 +62,7 @@ h2 {
     transition: 0.3s;
   }
 
+.result-card:hover {
+    background: #f8f9fa;
+  }
+
