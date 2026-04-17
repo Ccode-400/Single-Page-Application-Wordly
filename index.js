@@ -28,4 +28,7 @@ async function fetchWord(word) {
       throw new Error("Word not found");
     }
 
-    
+    const data = await response.json();
+    displayWord(data[0]);
+
+  
