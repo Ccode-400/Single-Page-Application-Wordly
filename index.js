@@ -37,3 +37,8 @@ async function fetchWord(word) {
   }
 }
 
+// Display word 
+function displayWord(data) {
+  resultDiv.innerHTML = "";
+
+  
