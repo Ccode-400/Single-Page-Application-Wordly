@@ -56,4 +56,15 @@ function displayWord(data) {
   const container = document.createElement("div");
   container.className = "result-card";
 
+  container.innerHTML = `
+    <h3>${word}</h3>
+    <p><strong>Pronunciation:</strong> ${phonetic}</p>
+    <p><strong>Part of Speech:</strong> ${partOfSpeech}</p>
+    <p><strong>Definition:</strong> ${definition}</p>
+    <p><strong>Example:</strong> ${example}</p>
+    ${audio ? `<audio controls src="${audio}"></audio>` : "<p class='text-muted'>No audio available</p>"}
+  `;
+
+  resultDiv.appendChild(container);
+
   
