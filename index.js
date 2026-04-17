@@ -67,4 +67,5 @@ function displayWord(data) {
 
   resultDiv.appendChild(container);
 
-  
+  input.value = "";
+}
