@@ -50,4 +50,7 @@ function displayWord(data) {
   const definition = meaning.definitions[0].definition;
   const example = meaning.definitions[0].example || "No example available";
 
+  // Get audio
+  const audio = data.phonetics.find(p => p.audio)?.audio;
+
   
