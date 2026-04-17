@@ -19,3 +19,8 @@ h2 {
     color: #333;
   }
 
+#wordInput {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
