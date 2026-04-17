@@ -54,3 +54,11 @@ h2 {
     }
   }
 
+.result-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+
