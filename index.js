@@ -44,4 +44,10 @@ function displayWord(data) {
   const word = data.word;
   const phonetic = data.phonetic || "Not available";
 
+  const meaning = data.meanings[0];
+  const partOfSpeech = meaning.partOfSpeech;
+
+  const definition = meaning.definitions[0].definition;
+  const example = meaning.definitions[0].example || "No example available";
+
   
