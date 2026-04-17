@@ -53,4 +53,7 @@ function displayWord(data) {
   // Get audio
   const audio = data.phonetics.find(p => p.audio)?.audio;
 
+  const container = document.createElement("div");
+  container.className = "result-card";
+
   
