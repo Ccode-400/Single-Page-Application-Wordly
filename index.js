@@ -13,4 +13,6 @@ form.addEventListener("submit", function (e) {
     return;
   }
 
-  
+  fetchWord(word);
+});
+
