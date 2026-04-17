@@ -41,4 +41,7 @@ async function fetchWord(word) {
 function displayWord(data) {
   resultDiv.innerHTML = "";
 
+  const word = data.word;
+  const phonetic = data.phonetic || "Not available";
+
   
